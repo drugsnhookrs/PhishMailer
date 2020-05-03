@@ -31,10 +31,7 @@ from Core.ipmenu import Snapchat
 #EmailSender:
 from Core.mailer import NormalEmail
 
-red = ("\033[1;31;40m")
-green = ("\033[1;32;40m")
-white = ("\033[1;37;40m")
-blue = ("\033[1;34;40m")
+from Core.helper.color import red, green, white, blue, numbering
 
 os.system("clear")
 print(green + """
@@ -58,20 +55,20 @@ print(green + """
 time.sleep(0.5)
 print(green + "[" + red + "!" + green + "]" + white + "More Versions Will Come Soon Stay Updated, Follow My Github\n")
 print(white + "options:")
-print(green + "[" + white + "1" + green + "]" + white + " Instagram" + green + "			[" + white + "11" + green + "]" + white + " Paypal")
-print(green + "[" + white + "2" + green + "]" + white + " Facebook" + green + "			[" + white + "12" + green + "]" + white + " Discord")
-print(green + "[" + white + "3" + green + "]" + white + " Gmail" + green + "			[" + white + "13" + green + "]" + white + " Spotify")
-print(green + "[" + white + "4" + green + "]" + white + " Gmail (simple)" + green + "		[" + white + "14" + green + "]" + white + " Blockchain")
-print(green + "[" + white + "5" + green + "]" + white + " Twitter" + green + "			[" + white + "15" + green + "]" + white + " RiotGames")
-print(green + "[" + white + "6" + green + "]" + white + " Snapchat" + green + "			[" + white + "16" + green + "]" + white + " Rockstar")
-print(green + "[" + white + "7" + green + "]" + white + " Snapchat (simple)" + green + "		[" + white + "17" + green + "]" + white + " AskFM")
-print(green + "[" + white + "8" + green + "]" + white + " Steam" + green + "			[" + white + "18" + green + "]" + white + " 000Webhost")
-print(green + "[" + white + "9" + green + "]" + white + " Dropbox" + green + "			[" + white + "19" + green + "]" + white + " Dreamteam")
-print(green + "[" + white + "10" + green + "]" + white + " Linkedin" + green + "			[" + white + "20" + green + "]" + white + " Gamehag")
+print(numbering(1) + white + " Instagram" + green + "			[" + white + "11" + green + "]" + white + " Paypal")
+print(numbering(2) + white + " Facebook" + green + "			[" + white + "12" + green + "]" + white + " Discord")
+print(numbering(3) + white + " Gmail" + green + "			[" + white + "13" + green + "]" + white + " Spotify")
+print(numbering(4) + white + " Gmail (simple)" + green + "		[" + white + "14" + green + "]" + white + " Blockchain")
+print(numbering(5) + white + " Twitter" + green + "			[" + white + "15" + green + "]" + white + " RiotGames")
+print(numbering(6) + white + " Snapchat" + green + "			[" + white + "16" + green + "]" + white + " Rockstar")
+print(numbering(7) + white + " Snapchat (simple)" + green + "		[" + white + "17" + green + "]" + white + " AskFM")
+print(numbering(8) + white + " Steam" + green + "			[" + white + "18" + green + "]" + white + " 000Webhost")
+print(numbering(9) + white + " Dropbox" + green + "			[" + white + "19" + green + "]" + white + " Dreamteam")
+print(numbering(10) + white + " Linkedin" + green + "			[" + white + "20" + green + "]" + white + " Gamehag")
 print(green + "-----------------------------------------------------------------------")
-print(green + "[" + white + "30" + green + "]" + white + " Send Phishing Email")
-print(green + "[" + white + "99" + green + "]" + red + " EXIT")
-print(green + "[" + white + "1337" + green + "]" + white + " Info\n")
+print(numbering(30) + white + " Send Phishing Email")
+print(numbering(99) + red + " EXIT")
+print(numbering(1337) + white + " Info\n")
 
 print(green)
 mailPick = int(input("root@phishmailer:~ " + white))
