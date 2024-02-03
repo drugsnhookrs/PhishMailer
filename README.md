@@ -73,12 +73,3 @@ python3 PhishMailer.py
 - [ ] Mass Email Sender
 - [x] Fix More Email Clients To Send From
 
-## Contact
-If You Have Any Ideas And/Or Have Created Some Phishing Email(s) And Want To Have Your Name Here As A Code Helper
-You Can Contact Me Here:
-Instagram: bizk3n
-
-## Support 
-If You Want To Support Me So I Can Continue And Update PhishMailer And Create Other Hacking Tools
-You Can Do That Here:
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/BiZken)
